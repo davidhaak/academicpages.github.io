@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : @davidhaak
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
