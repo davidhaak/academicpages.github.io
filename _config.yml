@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "the Haak Lab"
+title                    : "The Haak Lab"
 title_separator          : "-"
 name                     : &name "David Haak"
-description              : &description "personal description"
+description              : &description "A Plant and Microbial Genomics Lab at Virginia Tech"
 url                      : https://davidhaak.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "davidhaak/davidhaak.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Haak Lab"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Assistant Professor of Plant and Microbial Genomics at Virginia Tech"
   location         : "Blacksburg, VA"
-  employer         :
+  employer         : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=david+c+haak"
   googlescholar    : "https://scholar.google.com/citations?user=gAf-cj0AAAAJ&hl=en&oi=ao"
-  email            :
+  email            : "dhaak@vt.edu"
   researchgate     :  "https://www.researchgate.net/profile/David_Haak?ev=hdr_xprf&_sg=9P6zC2B-NLQXf6iHXPyguwn8XUIbK1wgFH1eGhcFsnLgOrlYW2DfSo_7itADkixL_chOqlz4vVkD9d092KueE-ws"
   uri              :
   bitbucket        :
@@ -173,6 +173,9 @@ kramdown:
 
 # Collections
 collections:
+  about:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -253,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
